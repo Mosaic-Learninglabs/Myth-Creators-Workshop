@@ -662,8 +662,8 @@ const MythMakersWorkshop = () => {
                   💬 {text.wordBankTitle[language]}
                 </h2>
 
-                <div className="space-y-2">
-                  <div className="bg-blue-900 bg-opacity-40 p-3 rounded-lg">
+                <div className="space-y-3">
+                  <div className="bg-blue-900 bg-opacity-40 p-3 rounded-lg min-h-[80px] flex flex-col justify-center">
                     <h3 className="font-bold text-blue-300 text-sm mb-2 text-center">
                       {char1.emoji} {char1[language]}
                     </h3>
@@ -676,7 +676,7 @@ const MythMakersWorkshop = () => {
                     </div>
                   </div>
 
-                  <div className="bg-yellow-900 bg-opacity-40 p-3 rounded-lg">
+                  <div className="bg-yellow-900 bg-opacity-40 p-3 rounded-lg min-h-[80px] flex flex-col justify-center">
                     <h3 className="font-bold text-yellow-300 text-sm mb-2 text-center">
                       {setting.emoji} {setting[language]}
                     </h3>
@@ -689,7 +689,7 @@ const MythMakersWorkshop = () => {
                     </div>
                   </div>
 
-                  <div className="bg-blue-800 bg-opacity-40 p-3 rounded-lg">
+                  <div className="bg-blue-800 bg-opacity-40 p-3 rounded-lg min-h-[80px] flex flex-col justify-center">
                     <h3 className="font-bold text-blue-200 text-sm mb-2 text-center">
                       {char2.emoji} {char2[language]}
                     </h3>
@@ -716,13 +716,13 @@ const MythMakersWorkshop = () => {
                     📖 {text.plotStructureTitle[language]}
                   </h2>
 
-                  <div className="space-y-2">
+                  <div className="space-y-3">
                     {/* Exposition */}
-                    <div className="bg-green-900 bg-opacity-40 p-2 rounded-lg">
-                      <h3 className="font-bold text-green-300 text-xs mb-1.5">🌅 {text.exposition[language]}</h3>
-                      <div className="space-y-1">
+                    <div className="bg-green-900 bg-opacity-40 p-3 rounded-lg">
+                      <h3 className="font-bold text-green-300 text-xs mb-2">🌅 {text.exposition[language]}</h3>
+                      <div className="space-y-1.5">
                         {sentenceStarters?.exposition[language].map((starter, i) => (
-                          <div key={i} className="bg-gray-900 bg-opacity-60 p-1.5 rounded text-xs text-gray-200 leading-snug">
+                          <div key={i} className="bg-gray-900 bg-opacity-60 p-2 rounded text-xs text-gray-200 leading-snug">
                             {starter}
                           </div>
                         ))}
@@ -730,11 +730,11 @@ const MythMakersWorkshop = () => {
                     </div>
 
                     {/* Rising Action */}
-                    <div className="bg-blue-800 bg-opacity-40 p-2 rounded-lg">
-                      <h3 className="font-bold text-blue-300 text-xs mb-1.5">📈 {text.risingAction[language]}</h3>
-                      <div className="space-y-1">
+                    <div className="bg-blue-800 bg-opacity-40 p-3 rounded-lg">
+                      <h3 className="font-bold text-blue-300 text-xs mb-2">📈 {text.risingAction[language]}</h3>
+                      <div className="space-y-1.5">
                         {sentenceStarters?.rising[language].map((starter, i) => (
-                          <div key={i} className="bg-gray-900 bg-opacity-60 p-1.5 rounded text-xs text-gray-200 leading-snug">
+                          <div key={i} className="bg-gray-900 bg-opacity-60 p-2 rounded text-xs text-gray-200 leading-snug">
                             {starter}
                           </div>
                         ))}
@@ -742,11 +742,11 @@ const MythMakersWorkshop = () => {
                     </div>
 
                     {/* Climax */}
-                    <div className="bg-red-900 bg-opacity-40 p-2 rounded-lg">
-                      <h3 className="font-bold text-red-300 text-xs mb-1.5">⚡ {text.climax[language]}</h3>
-                      <div className="space-y-1">
+                    <div className="bg-red-900 bg-opacity-40 p-3 rounded-lg">
+                      <h3 className="font-bold text-red-300 text-xs mb-2">⚡ {text.climax[language]}</h3>
+                      <div className="space-y-1.5">
                         {sentenceStarters?.climax[language].map((starter, i) => (
-                          <div key={i} className="bg-gray-900 bg-opacity-60 p-1.5 rounded text-xs text-gray-200 leading-snug">
+                          <div key={i} className="bg-gray-900 bg-opacity-60 p-2 rounded text-xs text-gray-200 leading-snug">
                             {starter}
                           </div>
                         ))}
@@ -754,11 +754,11 @@ const MythMakersWorkshop = () => {
                     </div>
 
                     {/* Falling Action */}
-                    <div className="bg-orange-900 bg-opacity-40 p-2 rounded-lg">
-                      <h3 className="font-bold text-orange-300 text-xs mb-1.5">📉 {text.fallingAction[language]}</h3>
-                      <div className="space-y-1">
+                    <div className="bg-orange-900 bg-opacity-40 p-3 rounded-lg">
+                      <h3 className="font-bold text-orange-300 text-xs mb-2">📉 {text.fallingAction[language]}</h3>
+                      <div className="space-y-1.5">
                         {sentenceStarters?.falling[language].map((starter, i) => (
-                          <div key={i} className="bg-gray-900 bg-opacity-60 p-1.5 rounded text-xs text-gray-200 leading-snug">
+                          <div key={i} className="bg-gray-900 bg-opacity-60 p-2 rounded text-xs text-gray-200 leading-snug">
                             {starter}
                           </div>
                         ))}
@@ -766,11 +766,11 @@ const MythMakersWorkshop = () => {
                     </div>
 
                     {/* Resolution */}
-                    <div className="bg-purple-900 bg-opacity-40 p-2 rounded-lg">
-                      <h3 className="font-bold text-purple-300 text-xs mb-1.5">🎯 {text.resolution[language]}</h3>
-                      <div className="space-y-1">
+                    <div className="bg-purple-900 bg-opacity-40 p-3 rounded-lg">
+                      <h3 className="font-bold text-purple-300 text-xs mb-2">🎯 {text.resolution[language]}</h3>
+                      <div className="space-y-1.5">
                         {sentenceStarters?.resolution[language].map((starter, i) => (
-                          <div key={i} className="bg-gray-900 bg-opacity-60 p-1.5 rounded text-xs text-gray-200 leading-snug">
+                          <div key={i} className="bg-gray-900 bg-opacity-60 p-2 rounded text-xs text-gray-200 leading-snug">
                             {starter}
                           </div>
                         ))}
@@ -787,7 +787,7 @@ const MythMakersWorkshop = () => {
 
                   <div className="space-y-3">
                     {Object.entries(transitions).map(([key, values]) => (
-                      <div key={key} className="bg-blue-900 bg-opacity-40 p-3 rounded-lg">
+                      <div key={key} className="bg-blue-900 bg-opacity-40 p-3 rounded-lg min-h-[70px] flex items-center justify-center">
                         <div className="flex flex-wrap gap-2 justify-center">
                           {values[language].map((word, i) => (
                             <button
