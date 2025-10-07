@@ -139,7 +139,7 @@ const MythMakersWorkshop = () => {
   // Settings
   const settings = [
     {
-      emoji: '🏔️',
+      emoji: '⛰️',
       en: 'Mountain',
       es: 'Montaña',
       words: {
@@ -157,7 +157,7 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '🏜️',
+      emoji: '🏜',
       en: 'Desert',
       es: 'Desierto',
       words: {
@@ -175,7 +175,7 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '☁️',
+      emoji: '☁',
       en: 'Sky',
       es: 'Cielo',
       words: {
@@ -193,7 +193,7 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '❄️',
+      emoji: '❄',
       en: 'Tundra',
       es: 'Tundra',
       words: {
@@ -202,7 +202,7 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '🏞️',
+      emoji: '🏞',
       en: 'Valley',
       es: 'Valle',
       words: {
@@ -220,15 +220,6 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '🏛️',
-      en: 'Temple',
-      es: 'Templo',
-      words: {
-        en: ['ancient', 'sacred', 'stone', 'quiet', 'mysterious'],
-        es: ['antiguo', 'sagrado', 'piedra', 'silencioso', 'misterioso']
-      }
-    },
-    {
       emoji: '🌾',
       en: 'Field',
       es: 'Campo',
@@ -238,7 +229,7 @@ const MythMakersWorkshop = () => {
       }
     },
     {
-      emoji: '🏞️',
+      emoji: '💧',
       en: 'River',
       es: 'Río',
       words: {
